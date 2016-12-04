@@ -54,7 +54,7 @@ struct SimonSays {
     var colorToDisplay = 0
     let numberOfColorsToMatch: Int
     
-    init(numberOfColorsToMatch: Int = 5) {
+    init(numberOfColorsToMatch: Int = 3) {
         self.numberOfColorsToMatch = numberOfColorsToMatch
         
         for _ in (0..<numberOfColorsToMatch) {
